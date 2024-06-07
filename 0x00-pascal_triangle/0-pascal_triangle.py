@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+'''Create a function def pascal_triangle(n)'''
+
 
 def pascal_triangle(n):
+    '''func return  lists of int representing Pascal’s triangle of n'''
     triangle = []
     if type(n) is not int or n <= 0:
         return triangle
